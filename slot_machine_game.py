@@ -9,7 +9,6 @@ def spin_row():
 
     #Creating a list comprehension 
     # This will return a list of 3 random symbols from the symbols list
-    # This is a more concise way to achieve the same result
     return [random.choice(symbols) for _ in range(3)]
 
 # Count down wait before printing the row
